@@ -42,7 +42,7 @@ const projects = [
     category: "fitness & Branding",
     description: "an immersive gym plaatform for a luxury fitness brand, featuring fluid animations and a personalized shopping journey.",
     image: "./public/gym.png", // Placeholder
-    link: "./public/gym.png",
+    link: "https://gym-brand.onrender.com",
     color: "#ff6b6b"
   },
   {
