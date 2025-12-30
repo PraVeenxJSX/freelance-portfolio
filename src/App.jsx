@@ -150,7 +150,7 @@ const Navbar = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div className="container nav-inner">
-          <a href="#" className="logo">NEXUS<span className="dot">.</span></a>
+          <a href="/" className="logo">NEXUS<span className="dot">.</span></a>
           <div className="nav-links desktop">
             <a href="#services">Services</a>
             <a href="#work">Our Work</a>
