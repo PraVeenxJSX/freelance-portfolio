@@ -14,7 +14,7 @@ const projects = [
     title: "archetype designing",
     category: "architechture & INTERIOR DESIGN",
     description: "A sleek, modern website for an interior design firm, showcasing their portfolio with interactive elements and smooth transitions.",
-    image: "./public/archetype.png", // Placeholder
+    image: "./src/assets/archetype.png", // Placeholder
     link: "https://interior-brand.onrender.com",
     color: "#0057ff"
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "AURUM&EMBER",
     category: "Restaurant & Branding",
     description: "An immersive e-commerce platform for a luxury skincare brand, featuring fluid animations and a personalized shopping journey.",
-    image: "./public/restaurant.png", // Placeholder
+    image: "./src/assets/restaurant.png", // Placeholder
     link: "https://restaurant-brand.onrender.com",
     color: "#ff6b6b"
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "ecommerce & BRANDING",
     category: "E-commerce & Branding",
     description: "An immersive e-commerce platform for a luxury skincare brand, featuring fluid animations and a personalized shopping journey.",
-    image: "./public/ecommerce.png", // Placeholder
+    image: "./src/assets/ecommerce.png", // Placeholder
     link: "https://ecommerce-website-final-frontend.onrender.com/",
     color: "#ff6b6b"
   },
@@ -41,7 +41,7 @@ const projects = [
     title: "gym & BRANDING",
     category: "fitness & Branding",
     description: "an immersive gym plaatform for a luxury fitness brand, featuring fluid animations and a personalized shopping journey.",
-    image: "./public/gym.png", // Placeholder
+    image: "./src/assets/gym.png", // Placeholder
     link: "https://gym-brand.onrender.com",
     color: "#ff6b6b"
   },
@@ -50,7 +50,7 @@ const projects = [
     title: "bakery & BRANDING",
     category: "Bakery & Branding",
     description: "A delightful online bakery platform showcasing artisanal products with a warm, inviting design and seamless user experience.",
-    image: "./public/bakery.png", // Placeholder
+    image: "./src/assets/bakery.png", // Placeholder
     link: "https://bakery-brand.onrender.com",
     color: "#ff6b6b"
   },
@@ -59,7 +59,7 @@ const projects = [
     title: "real estate & BRANDING",
     category: "Real Estate & Branding",
     description: "A modern real estate website featuring property listings, virtual tours, and an intuitive search experience for prospective buyers.",
-    image: "./public/realestate.png", // Placeholder
+    image: "./src/assets/realestate.png", // Placeholder
     link: "https://aesthetic-gingersnap-98f3ff.netlify.app/",
     color: "#ff6b6b"
   }
