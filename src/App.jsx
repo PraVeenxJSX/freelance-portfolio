@@ -2,6 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring, useMotionValue, AnimatePresence } from 'framer-motion';
 import { ArrowUpRight, MessageCircle, Code, Layers, Smartphone, Menu, X, ChevronRight } from 'lucide-react';
 import './App.scss';
+import archtype from './assets/archetype.png';
+import restaurant from './assets/restaurant.png';
+import ecommerce from './assets/ecommerce.png';
+import gym from './assets/gym.png';
+import bakery from './assets/bakery.png';
+import realestate from './assets/realestate.png';
+
+
 
 // --- CONSTANTS & DATA ---
 const WHATSAPP_LINK = "https://wa.me/9063402690"; // Replace with your actual WhatsApp number
@@ -14,7 +22,7 @@ const projects = [
     title: "archetype designing",
     category: "architechture & INTERIOR DESIGN",
     description: "A sleek, modern website for an interior design firm, showcasing their portfolio with interactive elements and smooth transitions.",
-    image: "./src/assets/archetype.png", // Placeholder
+    image: archtype, // Placeholder
     link: "https://interior-brand.onrender.com",
     color: "#0057ff"
   },
@@ -23,7 +31,7 @@ const projects = [
     title: "AURUM&EMBER",
     category: "Restaurant & Branding",
     description: "An immersive e-commerce platform for a luxury skincare brand, featuring fluid animations and a personalized shopping journey.",
-    image: "./src/assets/restaurant.png", // Placeholder
+    image: restaurant, // Placeholder
     link: "https://restaurant-brand.onrender.com",
     color: "#ff6b6b"
   },
@@ -32,7 +40,7 @@ const projects = [
     title: "ecommerce & BRANDING",
     category: "E-commerce & Branding",
     description: "An immersive e-commerce platform for a luxury skincare brand, featuring fluid animations and a personalized shopping journey.",
-    image: "./src/assets/ecommerce.png", // Placeholder
+    image: ecommerce, // Placeholder
     link: "https://ecommerce-website-final-frontend.onrender.com/",
     color: "#ff6b6b"
   },
@@ -41,7 +49,7 @@ const projects = [
     title: "gym & BRANDING",
     category: "fitness & Branding",
     description: "an immersive gym plaatform for a luxury fitness brand, featuring fluid animations and a personalized shopping journey.",
-    image: "./src/assets/gym.png", // Placeholder
+    image: gym, // Placeholder
     link: "https://gym-brand.onrender.com",
     color: "#ff6b6b"
   },
@@ -50,7 +58,7 @@ const projects = [
     title: "bakery & BRANDING",
     category: "Bakery & Branding",
     description: "A delightful online bakery platform showcasing artisanal products with a warm, inviting design and seamless user experience.",
-    image: "./src/assets/bakery.png", // Placeholder
+    image: bakery, // Placeholder
     link: "https://bakery-brand.onrender.com",
     color: "#ff6b6b"
   },
@@ -59,7 +67,7 @@ const projects = [
     title: "real estate & BRANDING",
     category: "Real Estate & Branding",
     description: "A modern real estate website featuring property listings, virtual tours, and an intuitive search experience for prospective buyers.",
-    image: "./src/assets/realestate.png", // Placeholder
+    image: realestate, // Placeholder
     link: "https://aesthetic-gingersnap-98f3ff.netlify.app/",
     color: "#ff6b6b"
   }
