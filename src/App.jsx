@@ -333,7 +333,7 @@ const Contact = () => (
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-primary whatsapp-cta">
             <MessageCircle size={20} /> Chat on WhatsApp
           </a>
-          <a href="bandelapraveenbandela@gmail.com" className="btn-secondary">
+          <a href="mailto:bandelapraveenbandela@gmail.com" className="btn-secondary">
             Send an Email
           </a>
         </div>
