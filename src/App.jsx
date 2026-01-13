@@ -8,6 +8,8 @@ import ecommerce from './assets/ecommerce.png';
 import gym from './assets/gym.png';
 import bakery from './assets/bakery.png';
 import realestate from './assets/realestate.png';
+import coaching from './assets/coaching.png';
+import consultant from './assets/consultant.png';
 
 
 
@@ -33,7 +35,7 @@ const projects = [
     description: "An immersive e-commerce platform for a luxury skincare brand, featuring fluid animations and a personalized shopping journey.",
     image: restaurant, // Placeholder
     link: "https://restaurant-brand.onrender.com",
-    color: "#ff6b6b"
+    color: "#90ff6bff"
   },
   {
     id: 3,
@@ -42,7 +44,7 @@ const projects = [
     description: "An immersive e-commerce platform for a luxury skincare brand, featuring fluid animations and a personalized shopping journey.",
     image: ecommerce, // Placeholder
     link: "https://ecommerce-website-final-frontend.onrender.com/",
-    color: "#ff6b6b"
+    color: "#6bffffff"
   },
   {
     id: 3,
@@ -51,7 +53,7 @@ const projects = [
     description: "an immersive gym plaatform for a luxury fitness brand, featuring fluid animations and a personalized shopping journey.",
     image: gym, // Placeholder
     link: "https://gym-brand.onrender.com",
-    color: "#ff6b6b"
+    color: "#e66bffff"
   },
   {
     id: 4,
@@ -60,7 +62,7 @@ const projects = [
     description: "A delightful online bakery platform showcasing artisanal products with a warm, inviting design and seamless user experience.",
     image: bakery, // Placeholder
     link: "https://bakery-brand.onrender.com",
-    color: "#ff6b6b"
+    color: "#ffff6bff"
   },
   {
     id: 5,
@@ -69,7 +71,25 @@ const projects = [
     description: "A modern real estate website featuring property listings, virtual tours, and an intuitive search experience for prospective buyers.",
     image: realestate, // Placeholder
     link: "https://aesthetic-gingersnap-98f3ff.netlify.app/",
-    color: "#ff6b6b"
+    color: "#ff6b6bff"
+  },
+  {
+    id: 6,
+    title: "Coaching & Branding",
+    category: "Coaching & Branding",
+    description: "A modern userfriendly coaching website featuring property listings, virtual tours, and an intuitive search experience for prospective buyers.",
+    image: coaching, // Placeholder
+    link: "https://coaching-umber-delta.vercel.app/",
+    color: "#9c6bffff"
+  },
+  {
+    id: 7,
+    title: "Consultancy & Branding",
+    category: "Consultancy & Branding",
+    description: "A consultancy website featuring property listings, virtual tours, and an intuitive search experience for prospective buyers.",
+    image: consultant, // Placeholder
+    link: "https://consultant-pink.vercel.app/",
+    color: "#ff6bb8ff"
   }
 ];
 
@@ -394,7 +414,7 @@ function App() {
       <Services />
       <Portfolio />
       <Contact />
-      <Footer />  
+      <Footer />
       <FloatingWhatsApp />
     </div>
   );
